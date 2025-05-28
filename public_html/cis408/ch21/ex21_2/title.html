@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<html lang = "en-US">
+<head>
+	<title>CIS408 WebApp</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/~anmikulc/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/~anmikulc/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/~anmikulc/icons/favicon-16x16.png">
+  <link rel="manifest" href="/~anmikulc/icons/site.webmanifest">
+</head>
+
+<body>
+
+	<script>
+     var originalTitle = document.title;
+     function showUnreadCount(unread) {
+       document.title = originalTitle + "(" + unread + " new messages!)";
+     }
+     showUnreadCount(3);
+	</script>
+</body>
+</html>

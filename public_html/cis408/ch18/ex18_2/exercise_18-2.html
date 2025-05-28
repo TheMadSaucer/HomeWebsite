@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<html lang = "en-US">
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/~anmikulc/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~anmikulc/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/~anmikulc/icons/favicon-16x16.png">
+<link rel="manifest" href="/~anmikulc/icons/site.webmanifest">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Exercise 18-2: transform</title>
+<style>
+body {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  margin: 6em 6em;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  float: left;
+  margin-right: 10px;
+}
+li:last-of-type {
+  margin-right: 0;
+}
+
+a {
+  display: block;
+}
+a:hover #img1, a:focus #img1 {
+  transform: rotate(-3deg) scale(1.5);
+}
+a:hover #img2, a:focus #img2 {
+  transform: rotate(5deg) scale(1.5);
+}
+a:hover #img3, a:focus #img3 {
+  transform: rotate(-7deg) scale(1.5);
+}
+a:hover #img4, a:focus #img4 {
+  transform: rotate(2deg) scale(1.5);
+}
+a:hover img{
+  box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+img {
+  width: 200px;
+  height: 150px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  transition: transform 0.3s linear;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<ul>
+  <li><a href=""><img src="images/anchovies.jpg" id="img1" alt=""></a></li>
+  <li><a href=""><img src="images/jellyfish1.jpg" id="img2" alt=""></a></li>
+  <li><a href=""><img src="images/bluejellyfish.jpg" id="img3" alt=""></a></li>
+  <li><a href=""><img src="images/seadragon.jpg" id="img4"alt=""></a></li>
+
+</ul>
+
+</body>
+</html>

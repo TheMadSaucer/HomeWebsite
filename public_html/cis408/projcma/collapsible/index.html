@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/~anmikulc/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/~anmikulc/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/~anmikulc/icons/favicon-16x16.png">
+<link rel="manifest" href="/~anmikulc/icons/site.webmanifest">
+  <title>CMA artworks</title>
+<title>Black Goose Bistro Summer Menu</title>
+
+  <!-- https://www.w3schools.com/howto/howto_js_collapsible.asp -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #FFF;
+  color: black;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family: Times New Roman;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px 0 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #FFF;
+}
+
+dt {
+  margin-left: 20px;
+}
+</style>
+
+</head>
+
+<body>
+  <div id="artworks"></div>
+  <script src="cma_collapsible.js"></script>
+</body>
+</html>
